@@ -46,31 +46,32 @@ HelperModules::init([
         <meta name="theme-color" content="#13161f">
 
         <!-- <script async src="https://trk.proficasino.com/track.js?rtkcmpid=<?= REDTRACK_CAMPAIGN_ID; ?>"></script>
-    <?php /*
-        <script>
-            const handleRedtrack = async () => {                                                                                    
-                const links = Array.from(document.querySelectorAll('a[href*="clickid="]'));                                           
-                if (!links.length) {                                                                                                  
-                await new Promise(r => setTimeout(r, 200));                                                                         
-                console.log('Waiting for Redtrack links to appear')                                                                 
-                await handleRedtrack();                                                                                             
-                return;                                                                                                             
-                }                                                                                                                     
-                const link = links.find(i => i.href.includes('clickid={clickid}'));                                                   
-                                                                                                                                    
-                // loop until {clickid} replaced                                                                                      
-                if (link) {                                                                                                           
-                while (link.href.includes('clickid={clickid}')) {                                                                   
-                    await new Promise(r => setTimeout(r, 50));                                                                        
-                    console.log('Waiting for Redtrack clickid to arrive')                                                             
-                }                                                                                                                   
-                }                                                                                                                     
-                                                                                                                                    
-            };                                                                                                                      
-            handleRedtrack().then();
-        </script>
-    */ ?> -->
+        <?php /*
+            <script>
+                const handleRedtrack = async () => {                                                                                    
+                    const links = Array.from(document.querySelectorAll('a[href*="clickid="]'));                                           
+                    if (!links.length) {                                                                                                  
+                    await new Promise(r => setTimeout(r, 200));                                                                         
+                    console.log('Waiting for Redtrack links to appear')                                                                 
+                    await handleRedtrack();                                                                                             
+                    return;                                                                                                             
+                    }                                                                                                                     
+                    const link = links.find(i => i.href.includes('clickid={clickid}'));                                                   
+                                                                                                                                        
+                    // loop until {clickid} replaced                                                                                      
+                    if (link) {                                                                                                           
+                    while (link.href.includes('clickid={clickid}')) {                                                                   
+                        await new Promise(r => setTimeout(r, 50));                                                                        
+                        console.log('Waiting for Redtrack clickid to arrive')                                                             
+                    }                                                                                                                   
+                    }                                                                                                                     
+                                                                                                                                        
+                };                                                                                                                      
+                handleRedtrack().then();
+            </script>
+        */ ?> -->
     </head>
+
 
     <body class="home page-template-default page page-id-2 no-sidebar customize-support">
 
@@ -88,15 +89,19 @@ HelperModules::init([
         </div>
         <!-- =============== Sticky Disclaimer End ============== -->
 
+
+
         <div id="page" class="site pt-5">
 
             <!-- =============== Promotion Start ======================= -->
-            <div id="promotion">
+            <div class="promotion">
                 <p>
                     Promo des Monats
                 </p>
             </div>
             <!-- =============== Promotion End ======================== -->
+
+
             <main id="primary" class="site-main">
                 <!-- <header id="masthead" class="site-header">
                     <div class="container">
@@ -161,6 +166,8 @@ HelperModules::init([
                 </header> -->
 
 
+
+                <!-- ==============================  List Card Start ========================= -->
                 <article id="post-2" class="container post-2 page type-page status-publish hentry">
                     <div class="list-main rounded-2 toplist-name" data-id="379" data-toplist-name="Sport Main">
                         <div class="d-none d-md-block p-2 py-md-1 px-md-4 rounded-2 list-title mb-2">
@@ -434,8 +441,11 @@ HelperModules::init([
                         </div>
                     </div>
                 </article>
+                <!-- ==============================  List Card End ========================= -->
 
 
+
+                <!-- ============================== Brand Logos Start ======================== -->
                 <div class="brand-logos-middle">
                     <div class="container">
                         <div class="brand-logos-m-title">
@@ -452,10 +462,13 @@ HelperModules::init([
                         </div>
                     </div>
                 </div>
+                <!-- ============================== Brand Logos End ======================== -->
 
 
             </main>
 
+
+            <!-- =============================== Footer Start ================================ -->
             <footer class="py-3">
                 <div class="container">
                     <div class="footer-txt text-white-50">
@@ -510,18 +523,38 @@ HelperModules::init([
 
                         </div>
 
+
                         <div class="footer-logo d-flex flex-wrap align-items-center justify-content-around gap-3 gap-md-4 my-md-5 py-4">
 
                             <img class="footer-ico" src="./images/18.png" loading="lazy">
-                            <a href="https://www.skillonnet.com/" target="_blank" rel="nofollow"><img class="footer-ico" src="./images/skillonnet.png" loading="lazy"></a>
-                            <a href="https://www.gamcare.org.uk/" target="_blank" rel="nofollow"><img class="footer-ico" src="./images/gamcare.png" loading="lazy"></a>
-                            <a href="https://www.begambleaware.org/" target="_blank" rel="nofollow"><img class="footer-ico" src="./images/BeGambleAware.png" loading="lazy"></a>
-                            <a href="https://gluecksfall.com/" target="_blank" rel="nofollow"><img class="footer-ico" src="./images/gluecksfall.png" loading="lazy"></a>
+
+                            <a href="https://www.skillonnet.com/" target="_blank" rel="nofollow">
+                                <img class="footer-ico" src="./images/skillonnet.png" loading="lazy">
+                            </a>
+
+                            <a href="https://www.gamcare.org.uk/" target="_blank" rel="nofollow">
+                                <img class="footer-ico" src="./images/gamcare.png" loading="lazy">
+                            </a>
+
+                            <a href="https://www.begambleaware.org/" target="_blank" rel="nofollow">
+                                <img class="footer-ico" src="./images/BeGambleAware.png" loading="lazy">
+                            </a>
+
+                            <a href="https://gluecksfall.com/" target="_blank" rel="nofollow">
+                                <img class="footer-ico" src="./images/gluecksfall.png" loading="lazy">
+                            </a>
+
                             <img class="footer-ico" src="./images/gluckspiel2.jpg" loading="lazy">
+
                             <img class="footer-ico" src="./images/deflag.png" loading="lazy">
-                            <a href="https://gluecksspiel-behoerde.de/" target="_blank" rel="nofollow"><img class="footer-ico" src="./images/ggl.svg" loading="lazy"></a>
-                            <a href="https://www.bzga.de/" target="_blank" rel="nofollow"><img class="footer-ico" src="./images/bzga.jpg.webp" loading="lazy"></a>
-                            
+
+                            <a href="https://gluecksspiel-behoerde.de/" target="_blank" rel="nofollow">
+                                <img class="footer-ico" src="./images/ggl.svg" loading="lazy">
+                            </a>
+
+                            <a href="https://www.bzga.de/" target="_blank" rel="nofollow">
+                                <img class="footer-ico" src="./images/bzga.jpg.webp" loading="lazy">
+                            </a>
 
                             <!--<a href="#" target="_blank" rel="nofollow"><img class="footer-ico" src="./images/qmra.svg" loading="lazy"> </a>
                             <a href="#" target="_blank" rel="nofollow"><img class="footer-ico" src="./images/GamblingTherapy.png" loading="lazy"></a>
@@ -535,6 +568,7 @@ HelperModules::init([
                     </div>
                 </div>
             </footer>
+            <!-- =============================== Footer End ================================ -->
         </div>
 
         <!--<script src="./js/popper.min.js.download" id="popper-defer-js"></script>

@@ -46,7 +46,7 @@
     width: 34px;
 }
 
-#promotion {
+.promotion {
     overflow: hidden;
     float: center;
     text-align: center;
@@ -61,7 +61,7 @@
     margin-bottom: 10px;
 }
 
-#promotion p {
+.promotion p {
 	color: #000000 !important;
 	font-weight: 600;
     letter-spacing: -1px;
@@ -70,6 +70,11 @@
 	font-size: 28px;
 	margin: 0px !important;
 	word-spacing: 1px;
+}
+
+.promotion.pro-subpage {
+    margin-bottom: 0px;
+    border-bottom: 2px solid #ffffff;
 }
 
 .sticky-logo {
